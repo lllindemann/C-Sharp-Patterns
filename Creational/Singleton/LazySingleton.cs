@@ -5,7 +5,9 @@ using UnityEngine.Networking;
 using System;
 
 /// <summary>
-/// SINGLETON CLASS via Lazy 
+/// Basic SINGLETON CLASS via Lazy 
+/// This implementation provides lazy initialization 
+/// for the Singleton object
 /// </summary>
 public class Singleton
 {
