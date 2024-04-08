@@ -1,4 +1,11 @@
 # Software Design Patterns written in C#
+ This repository aims to provide a comprehensive guide to software design patterns in C# programming language through practical examples. Whether you are a beginner or an experienced developer, understanding design patterns can greatly enhance your software development skills and help you build more scalable, maintainable, and efficient code.
+
+# What are Design Patterns?
+Design patterns are reusable solutions to common software design problems encountered during the development process. They are established best practices that encapsulate the experience of developers over time. 
+
+# Patterns Included
+This repository covers design patterns categorized into three main types: creational, structural, and behavioral patterns. Each pattern is explained with a code example to demonstrate its implementation.
 
 ## Creational Patterns
 ### Singleton Pattern
@@ -22,7 +29,9 @@ In this Singleton implementation the instantiation of the object is triggered by
 - implementation is completely lazy
 - nested classes have access to the private members of the enclosing class, but in reverse not
 
-
 #### Monobehaviour Singleton
 A simple Singleton implemention is sometimes not suitable when working with MonoBehaviour classes. Monobehaviour Singleton need to be implemented as Generic Class, to enable the inheritance of Monobehaviour functions.
 - inheritance of Monobehaviour functions
+
+## Structural Patterns
+## Behavioral Patterns
