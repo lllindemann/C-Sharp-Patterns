@@ -9,6 +9,8 @@ This repository covers design patterns categorized into three main types: creati
 
 ## Creational Patterns
 ### Singleton Pattern
+The Singleton Pattern ensures that a class has only one instance and provides a global point of access to that instance. It is useful when you need a single, shared instance of a class that can be accessed from anywhere in the application. 
+
 #### Naive Singleton
 A Naive Singleton is a very simple, but loose implementation of a Singleton Pattern. Side effects can be caused in multi-threaded environments, because multiple threads may call the GetInstance() at the same time, which can cause the creation of multiple instances of the Singleton class (paradox). Therefore I would recommend not to use this implementation in complex  multiple threaded environments. 
 - not safe in multi-threaded environment
